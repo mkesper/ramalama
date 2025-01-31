@@ -137,6 +137,9 @@ The default -1, means use whatever is automatically deemed appropriate (0 or 999
 do not run RamaLama in the default container (default: False)
 The default can be overridden in the ramalama.conf file.
 
+#### **--quiet**
+Decrease output verbosity.
+
 #### **--runtime**=*llama.cpp* | *vllm*
 specify the runtime to use, valid options are 'llama.cpp' and 'vllm' (default: llama.cpp)
 The default can be overridden in the ramalama.conf file.
