@@ -60,7 +60,7 @@ class HttpClient:
         self.now_downloaded = 0
         self.start_time = time.time()
         while True:
-            data = self.response.read(1024)
+            data = self.response.read(100 * 1024)
             if not data:
                 break
 
