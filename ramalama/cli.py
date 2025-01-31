@@ -567,6 +567,12 @@ def pull_parser(subparsers):
         default=True,
         help="require HTTPS and verify certificates when contacting registries",
     )
+    parser.add_argument(
+        "--quiet",
+        default=False,
+        action="store",
+        help="Do not show progress bar during download",
+    )
     parser.add_argument("MODEL")  # positional argument
     parser.set_defaults(func=pull_cli)
 
