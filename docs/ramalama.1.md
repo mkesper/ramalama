@@ -103,7 +103,7 @@ The environment variable "RAMALAMA_IN_CONTAINER=false" can also change the defau
 #### **--debug**
 print debug messages
 
-#### **--dryrun**
+#### **--dry-run**
 show container runtime command without executing it (default: False)
 
 #### **--engine**
