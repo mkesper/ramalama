@@ -171,9 +171,8 @@ def configure_arguments(parser):
 The RAMALAMA_IN_CONTAINER environment variable modifies default behaviour.""",
     )
     parser.add_argument(
-        "--dryrun", dest="dryrun", action="store_true", help="show container runtime command without executing it"
+        "--dry-run", dest="dryrun", action="store_true", help="show container runtime command without executing it"
     )
-    parser.add_argument("--dry-run", dest="dryrun", action="store_true", help=argparse.SUPPRESS)
     parser.add_argument(
         "--engine",
         dest="engine",
